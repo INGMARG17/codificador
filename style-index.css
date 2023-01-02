@@ -31,11 +31,12 @@ textarea {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 18px;
     line-height: 150%;
     /* identical to box height, or 48px */
     /* Dark blue/dark-blue-300 */
     color: #0A3871;
+    background: #E5E5E5;
 }
 
 #condicion{
@@ -145,4 +146,25 @@ textarea {
     flex: none;
     order: 0;
     flex-grow: 1;
+}
+.resultado{
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    left: 1000px;
+    top: 40px;
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+. #imagen{
+    /* Muñeco */
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;
 }

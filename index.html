@@ -6,35 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style-index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
     <title>Codificador</title>
 </head>
 <body>
     <header>
-        <img src="recursos/enigma.png" alt="Logo Alura"> 
-        <h1>Codificador de mensajes</h1>
-
-        <!-- recto de ingreso de mensje -->
-        <div>
-            <label for="mesaje"></label>
-            <textarea name="mensaje" id="" cols="30" rows="10">Ingrese el texto</textarea>
-        </div>
-        <p id="condicion">Solo letras minúsculas y sin acentos</p>
-        <div class="botones">
-        <button id="encriptar"><p id="boton-encriptar">Encriptar</p></button>
-        <button id="desencriptar"><p id="boton-desencriptar">Desencriptar</p></button>
-        </div>
-        <div class="resultado">
-            <div id="imagen"></div>
-            <div></div>
-            <div></div>
-        </div>
-    
+    <img src="recursos/enigma.png" alt="Logo Alura" class="logo"> 
     </header>
     <main>
-
-    </main>
-    <footer>
-
-    </footer>
+        <section>
+            <textarea class="textarea" cols="30" rows="10">Ingrese el texto</textarea>
+            <div>
+                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar">Encriptar</button>
+                <button class="boton-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="30" rows="10">Ingrese el texto</textarea>
+            <div>
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+   </main>
+      
 </body>
 </html>
